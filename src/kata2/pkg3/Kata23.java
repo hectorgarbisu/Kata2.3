@@ -19,7 +19,7 @@ public class Kata23 {
             if(value>=70)elderPeople.add(value);
         }
         int addition=0;
-        for (Integer value : elderPeople) {
+        for (Integer value : elderPeople) {//
             addition+=value;
         }
         System.out.println(addition + " años viejos");
